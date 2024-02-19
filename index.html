@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Sign-up Form</title>
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="logo-container" href="https://www.theodinproject.com" target="_blank">
+      <img src="assets/odin-lined.png" alt="Odin logo" width="60">
+      <p>Odin</p>
+    </a>
+    <p>Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com">Unsplash</a></p>
+  </aside>
+
+  <main>
+    <header>
+      <p>
+        This is not a real online service! You know you need something like this
+        in your life to help you realize your deepest dreams.
+        <br>Sign up <em>now</em> to get started
+      </p>
+      <p>You <em>know</em> you want to.</p>
+    </header>
+
+    <form action="">
+      <div class="input-area">
+        <p>Let's do this!</p>
+
+        <fieldset class="form-row">
+          <legend>Personal information</legend>
+          <div class="form-cell">
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" id="first-name" placeholder="Thor" required>
+          </div>
+          <div class="form-cell">
+            <label for="last-name">LAST NAME</label>
+            <input type="text" id="last-name" placeholder="Odinson">
+          </div>
+        </fieldset>
+
+        <fieldset class="form-row">
+          <legend>Contact information</legend>
+          <div class="form-cell">
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="form-cell">
+            <label for="phone-num">PHONE NUMBER</label>
+            <input type="tel" id="phone-num">
+          </div>
+        </fieldset>
+
+        <fieldset class="form-row">
+          <legend>Account security</legend>
+          <div class="form-cell">
+            <label for="pwd">PASSWORD</label>
+            <input type="password" id="pwd" required>
+          </div>
+          <div class="form-cell">
+            <label for="pwd-confirm">CONFIRM PASSWORD</label>
+            <input type="password" id="pwd-confirm" required>
+          </div>
+        </fieldset>
+      </div>
+      <button type="submit">Create Account</button>
+    </form>
+
+    <footer>Already have an account? <a href="">Log in</a></footer>
+  </main>
+</body>
+</html>
