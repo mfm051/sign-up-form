@@ -143,7 +143,11 @@ input {
 }
 
 input:invalid {
-  border: rgb(243, 130, 130) solid 1px;
+  /* border: rgb(243, 130, 130) solid 1px; */
+}
+
+.error {
+    border: rgb(243, 130, 130) solid 1px;
 }
 
 input:focus {

@@ -63,6 +63,7 @@
             <label for="pwd-confirm">CONFIRM PASSWORD</label>
             <input type="password" id="pwd-confirm" required>
           </div>
+          <p id="match_error_msg" style="width: 100%; color: red; font-size: 0.6rem;" hidden>*Passwords do not match</p>
         </fieldset>
       </div>
       <button type="submit">Create Account</button>
@@ -70,5 +71,6 @@
 
     <footer>Already have an account? <a href="">Log in</a></footer>
   </main>
+  <script src="./compare_pwd.js"></script>
 </body>
 </html>
