@@ -4,7 +4,6 @@
        url('assets/norse-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 
 * {
@@ -66,11 +65,10 @@ main {
   background-color: rgb(250, 248, 248);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   height: 100vh;
   flex: 2 1 700px;
-  padding-left: 5vw;
+  padding-left: 3vw;
 }
 
 header p, form p {
@@ -100,14 +98,14 @@ form {
 }
 
 .input-area {
-  margin-left: -5vw;
-  padding-left: 5vw;
+  margin-left: -3vw;
+  padding-left: 3vw;
   padding-top: 2vh;
   padding-bottom: 3vh;
   background-color: white;
-  box-shadow:
-    0 3px 3px rgb(206, 201, 201),
-    0 -1px 1px rgb(240, 240, 240);
+  box-shadow: 
+    3px 3px 3px rgb(206, 201, 201),
+    3px -1px 1px rgb(245, 244, 244);
   display: flex;
   flex-direction: column;
   gap: 2vh;
@@ -142,16 +140,11 @@ input {
   border-radius: 3px;
 }
 
-input:invalid {
-  /* border: rgb(243, 130, 130) solid 1px; */
-}
-
 .error {
-    border: rgb(243, 130, 130) solid 1px;
+  border: rgb(243, 130, 130) solid 1px;
 }
 
 input:focus {
-  /* border: inherit; */
   box-shadow: rgb(211, 210, 210) 3px 3px 8px;
 }
 
